@@ -30,7 +30,6 @@ export const Counter = ({initialValue = 0, step}) => {
     return ((counterGood / totalFeedback) * 100).toFixed(1);
   };
 
-
     return (
     <div>
         <h1>Please leave feedback</h1>
